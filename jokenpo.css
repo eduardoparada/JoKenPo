@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    font-weight: 400;
+    text-align: center;
+}
+#placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center
+}
+#jogador, #adversario{
+    position: flex;
+    flex-grow: 1;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    color: #fff;
+}
+#jogador{
+    background-color: #ed1c24;
+}
+#adversario{
+    background-color:#00a2e8;
+}
+ul#jogador-escolha, ul#adversario-escolha {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ul#jogador-escolha li, ul#adversario-escolha li {
+    display: inline;
+}
+ul#jogador-escolha li a img, ul#adversario-escolha li a img {
+    max-width: 100px;
+}
+#versus{
+    text-align: center;
+    font-size: 40px;
+    width: 70px;
+}
+#jogador-nome, #adversario-nome {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#mensagens{
+    background-color: black;
+    font-size: 40px;
+    border-radius: 5px;
+    margin: 40px 0;
+    padding: 20px;
+    color: white;
+}
